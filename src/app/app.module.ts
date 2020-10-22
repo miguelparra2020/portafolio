@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import { AppComponent } from './app.component';
+import { CarruselComponent } from './componentes/carrusel/carrusel.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CarruselComponent
   ],
   imports: [
     BrowserModule,
