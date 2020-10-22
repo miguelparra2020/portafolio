@@ -1,20 +1,62 @@
-<mdb-navbar SideClass="navbar  justify-content-center blue-gradient indigo" [containerInside]="true">
-    <div class="col-md-12">
-    <ul class="nav navbar-expand-lg justify-content-center blue-gradient lighten-3 py-4 mb-r font-weight-bold z-depth-1">
-        <li class="nav-item">
-        <a class="nav-link active white-text" href="#!">Tecnología</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link white-text" href="#!">Hogar</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link white-text" href="#!">Vehículos</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link white-text" href="#!">Super Mercado</a>
-        </li>
-    </ul>
-    </div>
-</mdb-navbar>    
+<!--Navbar-->
+<mdb-navbar SideClass="navbar navbar-expand-lg blue-gradient justify-content-center navbar-dark indigo">
+    <mdb-navbar-brand><a class="navbar-brand" href="#">Dinastía Digital</a></mdb-navbar-brand>
+    <links>
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link waves-light" mdbWavesEffect>
+                <mdb-icon fas icon="search"></mdb-icon>
+                    Inicio
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-light" mdbWavesEffect>
+                <mdb-icon fas icon="laptop"></mdb-icon>
+                    Tecnología
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-light" mdbWavesEffect>
+                <mdb-icon fas icon="house-damage"></mdb-icon>
+                    Hogar
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-light" mdbWavesEffect>
+                <mdb-icon fas icon="car"></mdb-icon>
+                    Vehículos
+                <mdb-icon fas icon="motorcycle"></mdb-icon>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-light" mdbWavesEffect>
+                <mdb-icon fas icon="shopping-basket"></mdb-icon>
+                Super Mercado
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-light" mdbWavesEffect>
+                <mdb-icon fas icon="shopping-basket"></mdb-icon>
+                Servicios
+                </a>
+            </li>
 
-
+            <!-- Dropdown -->
+            <li class="nav-item dropdown" dropdown>
+                <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+                Más Categorías<span class="caret"></span></a>
+                <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+                    <a class="dropdown-item waves-light" mdbWavesEffect href="#">Agro</a>
+                    <a class="dropdown-item waves-light" mdbWavesEffect href="#">Arte, Papelería y Mercería</a>
+                    <a class="dropdown-item waves-light" mdbWavesEffect href="#">Bebés</a>
+                    <a class="dropdown-item waves-light" mdbWavesEffect href="#">Belleza, Ropa y Accesorios</a>
+                    <a class="dropdown-item waves-light" mdbWavesEffect href="#">Deportes y Fitness</a>
+                    <div class="divider dropdown-divider"></div>
+                    <a class="dropdown-item waves-light" mdbWavesEffect href="#">Adultos</a>
+                </div>
+            </li>
+        </ul>
+    </links>
+</mdb-navbar>
+<!--/.Navbar-->
