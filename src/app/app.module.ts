@@ -14,6 +14,7 @@ import { CurriculumPageComponent } from './componentes/curriculum-page/curriculu
 import { FundacionPageComponent } from './componentes/fundacion-page/fundacion-page.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './componentes/home/home.component';
+import { CertificadoTecnologoContabilidadyFinanzasComponent } from './componentes/certificado-tecnologo-contabilidady-finanzas/certificado-tecnologo-contabilidady-finanzas.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { HomeComponent } from './componentes/home/home.component';
     ElectronicoPageComponent,
     CurriculumPageComponent,
     FundacionPageComponent,
-    HomeComponent
+    HomeComponent,
+    CertificadoTecnologoContabilidadyFinanzasComponent
   ],
   imports: [
     BrowserModule,

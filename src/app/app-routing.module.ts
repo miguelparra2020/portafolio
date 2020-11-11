@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CertificadoTecnologoContabilidadyFinanzasComponent } from './componentes/certificado-tecnologo-contabilidady-finanzas/certificado-tecnologo-contabilidady-finanzas.component';
 import { ContadorpageComponent } from './componentes/contadorPage/contadorpage.component'
 import { CurriculumPageComponent } from './componentes/curriculum-page/curriculum-page.component';
 import { ElectronicoPageComponent } from './componentes/electronico-page/electronico-page.component';
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'contador', component: ContadorpageComponent },
   { path: 'informatico', component: InformaticopageComponent },
   { path: 'electronico', component: ElectronicoPageComponent },
+  { path: 'certificadoTecnologoContabilidadyFinanzas', component: CertificadoTecnologoContabilidadyFinanzasComponent },
   { path: 'curriculum', component: CurriculumPageComponent }
 ];
 
