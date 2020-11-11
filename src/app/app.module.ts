@@ -12,6 +12,8 @@ import { InformaticopageComponent } from './componentes/informaticoPage/informat
 import { ElectronicoPageComponent } from './componentes/electronico-page/electronico-page.component';
 import { CurriculumPageComponent } from './componentes/curriculum-page/curriculum-page.component';
 import { FundacionPageComponent } from './componentes/fundacion-page/fundacion-page.component';
+import { AppRoutingModule } from './app-routing.module';
+import { HomeComponent } from './componentes/home/home.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +26,13 @@ import { FundacionPageComponent } from './componentes/fundacion-page/fundacion-p
     InformaticopageComponent,
     ElectronicoPageComponent,
     CurriculumPageComponent,
-    FundacionPageComponent
+    FundacionPageComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    MDBBootstrapModule.forRoot()
+    MDBBootstrapModule.forRoot(),
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
