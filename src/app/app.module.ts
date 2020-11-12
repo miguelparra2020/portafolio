@@ -16,6 +16,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './componentes/home/home.component';
 import { CertificadoTecnologoContabilidadyFinanzasComponent } from './componentes/certificado-tecnologo-contabilidady-finanzas/certificado-tecnologo-contabilidady-finanzas.component';
 import { FacebookModule } from "ngx-facebook";
+import { CertificadoTecnicoContabilidadFinanzasComponent } from './componentes/certificado-tecnico-contabilidad-finanzas/certificado-tecnico-contabilidad-finanzas.component';
+import { CertificadosCursosContablesComponent } from './componentes/certificados-cursos-contables/certificados-cursos-contables.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { FacebookModule } from "ngx-facebook";
     CurriculumPageComponent,
     FundacionPageComponent,
     HomeComponent,
-    CertificadoTecnologoContabilidadyFinanzasComponent
+    CertificadoTecnologoContabilidadyFinanzasComponent,
+    CertificadoTecnicoContabilidadFinanzasComponent,
+    CertificadosCursosContablesComponent
   ],
   imports: [
     BrowserModule,
