@@ -15,6 +15,7 @@ import { FundacionPageComponent } from './componentes/fundacion-page/fundacion-p
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './componentes/home/home.component';
 import { CertificadoTecnologoContabilidadyFinanzasComponent } from './componentes/certificado-tecnologo-contabilidady-finanzas/certificado-tecnologo-contabilidady-finanzas.component';
+import { FacebookModule } from "ngx-facebook";
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { CertificadoTecnologoContabilidadyFinanzasComponent } from './componente
   imports: [
     BrowserModule,
     MDBBootstrapModule.forRoot(),
+    FacebookModule.forRoot(),
     AppRoutingModule
   ],
   providers: [],
