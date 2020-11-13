@@ -18,6 +18,7 @@ import { CertificadoTecnologoContabilidadyFinanzasComponent } from './componente
 import { FacebookModule } from "ngx-facebook";
 import { CertificadoTecnicoContabilidadFinanzasComponent } from './componentes/certificado-tecnico-contabilidad-finanzas/certificado-tecnico-contabilidad-finanzas.component';
 import { CertificadosCursosContablesComponent } from './componentes/certificados-cursos-contables/certificados-cursos-contables.component';
+import { CertificadoCursoTablasExcelComponent } from './componentes/certificado-curso-tablas-excel/certificado-curso-tablas-excel.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { CertificadosCursosContablesComponent } from './componentes/certificados
     HomeComponent,
     CertificadoTecnologoContabilidadyFinanzasComponent,
     CertificadoTecnicoContabilidadFinanzasComponent,
-    CertificadosCursosContablesComponent
+    CertificadosCursosContablesComponent,
+    CertificadoCursoTablasExcelComponent
   ],
   imports: [
     BrowserModule,
