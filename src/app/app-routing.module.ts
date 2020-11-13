@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CertificadoCursoExcelBasicoComponent } from './componentes/certificado-curso-excel-basico/certificado-curso-excel-basico.component';
+import { CertificadoCursoHerramientasOfficeComponent } from './componentes/certificado-curso-herramientas-office/certificado-curso-herramientas-office.component';
 import { CertificadoCursoTablasExcelComponent } from './componentes/certificado-curso-tablas-excel/certificado-curso-tablas-excel.component';
 import { CertificadoTecnicoContabilidadFinanzasComponent } from './componentes/certificado-tecnico-contabilidad-finanzas/certificado-tecnico-contabilidad-finanzas.component';
 import { CertificadoTecnologoContabilidadyFinanzasComponent } from './componentes/certificado-tecnologo-contabilidady-finanzas/certificado-tecnologo-contabilidady-finanzas.component';
@@ -20,6 +22,8 @@ const routes: Routes = [
   { path: 'certificadoTecnicoContabilidadFinanzas', component: CertificadoTecnicoContabilidadFinanzasComponent },
   { path: 'certificadosCursosContables', component: CertificadosCursosContablesComponent },
   { path: 'certificadoCursoTablasExcel', component: CertificadoCursoTablasExcelComponent },
+  { path: 'certificadoCursoExcelBasico', component: CertificadoCursoExcelBasicoComponent },
+  { path: 'certificadoCursoHerramientasOffice', component: CertificadoCursoHerramientasOfficeComponent },
   { path: 'curriculum', component: CurriculumPageComponent }
 ];
 
