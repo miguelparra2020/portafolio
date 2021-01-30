@@ -1,8 +1,25 @@
-.view {
-    background: url("../../../assets/portada.png")no-repeat center center;
-    background-size: cover;
-    height: 100%;
+@media (min-width:1200px){
+    .view {
+        background: url("https://res.cloudinary.com/unidigital/image/upload/v1612030319/assets-MiguelPaez/portadaMiguel_vcwa6d.jpg")no-repeat center center;
+        background-size: cover;
+        height: 280px;
+    }
 }
+@media (min-width:700px) and (max-width: 1200px){
+    .view {
+        background: url("https://res.cloudinary.com/unidigital/image/upload/v1612030655/assets-MiguelPaez/portadaMiguel2_pfpx20.jpg")no-repeat center center;
+        background-size: cover;
+        height: 420px;
+    }
+}
+@media (max-width:700px){
+    .view {
+        background: url("https://res.cloudinary.com/unidigital/image/upload/v1612030841/assets-MiguelPaez/portadaMiguel3_ajmdpd.jpg")no-repeat center center;
+        background-size: cover;
+        height: 620px;
+    }
+}
+
 .imagenPerfil {
     margin-top:80px;
     margin-bottom:auto;

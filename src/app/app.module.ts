@@ -22,6 +22,10 @@ import { CertificadoCursoTablasExcelComponent } from './componentes/certificado-
 import { CertificadoCursoExcelBasicoComponent } from './componentes/certificado-curso-excel-basico/certificado-curso-excel-basico.component';
 import { CertificadoCursoHerramientasOfficeComponent } from './componentes/certificado-curso-herramientas-office/certificado-curso-herramientas-office.component';
 import { CertificadoCursoNormasOrtograficasEmpresarialesComponent } from './componentes/certificado-curso-normas-ortograficas-empresariales/certificado-curso-normas-ortograficas-empresariales.component';
+import { CertificadoOrtografiEmpresarialComponent } from './componentes/certificado-ortografi-empresarial/certificado-ortografi-empresarial.component';
+import { CertificadoCursoRedaccionyOrtografiaComponent } from './componentes/certificado-curso-redacciony-ortografia/certificado-curso-redacciony-ortografia.component';
+import { CertificadoCursoFundamentosMatematicasComponent } from './componentes/certificado-curso-fundamentos-matematicas/certificado-curso-fundamentos-matematicas.component';
+import { CertificadoCursoBolsaDeValoresComponent } from './componentes/certificado-curso-bolsa-de-valores/certificado-curso-bolsa-de-valores.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +46,11 @@ import { CertificadoCursoNormasOrtograficasEmpresarialesComponent } from './comp
     CertificadoCursoTablasExcelComponent,
     CertificadoCursoExcelBasicoComponent,
     CertificadoCursoHerramientasOfficeComponent,
-    CertificadoCursoNormasOrtograficasEmpresarialesComponent
+    CertificadoCursoNormasOrtograficasEmpresarialesComponent,
+    CertificadoOrtografiEmpresarialComponent,
+    CertificadoCursoRedaccionyOrtografiaComponent,
+    CertificadoCursoFundamentosMatematicasComponent,
+    CertificadoCursoBolsaDeValoresComponent
   ],
   imports: [
     BrowserModule,
